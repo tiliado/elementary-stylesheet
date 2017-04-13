@@ -2578,12 +2578,12 @@ GtkDialog .action-bar {
 
 .action-bar .title {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 11pt;
     padding: 0 12px;
 }
 
 .action-bar .subtitle {
-    font-size: 9px;
+    font-size: 9pt;
     padding: 0 12px;
 }
 
@@ -3018,7 +3018,7 @@ GtkAssistant .sidebar {
 
 switch,
 GtkSwitch {
-    font-size: 1px;
+    font-size: 1pt;
 
     /* min-height: 24px;
     min-width: 24px; FIXME: Uncomment for 3.19 */
@@ -4108,7 +4108,7 @@ GtkMessageDialog .titlebar.default-decoration:backdrop {
 
 .titlebar .title {
     font-weight: bold;
-    font-size: 9px;
+    font-size: 9pt;
 }
 
 .titlebar .subtitle {
@@ -4299,7 +4299,7 @@ GtkDialog .toolbar {
 dialog label.primary,
 GtkDialog GtkLabel.primary {
     font-weight: 700;
-    font-size: 11px;
+    font-size: 11pt;
 }
 
 /**************
