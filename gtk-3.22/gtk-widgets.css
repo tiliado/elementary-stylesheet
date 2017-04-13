@@ -170,8 +170,7 @@ separator.vertical,
 .titlebar .separator:first-child,
 .titlebar .separator:last-child {
     padding: 0 4px;
-    -GtkWidget-separator-width: 2px;
-    -GtkWidget-wide-separators: true;
+    min-width: 2px;
     border-width: 1px;
 }
 
@@ -183,7 +182,7 @@ separator.vertical,
 }
 
 .titlebar .separator {
-    -GtkWidget-separator-width: 18px;
+    min-width: 18px;
     padding: 0 18px;
     border-width: 18px;
 }
@@ -1589,9 +1588,9 @@ GtkComboBox .button {
 
 GtkComboBox .vertical.separator {
     /* always disable separators */
-    -GtkWidget-wide-separators: true;
-    -GtkWidget-horizontal-separator: 0;
-    -GtkWidget-vertical-separator: 0;
+    /* FIXME 3.22 */
+    min-width: 0px;
+    min-height: 0px;
     border: none;
 }
 
@@ -2230,8 +2229,7 @@ menu separator,
 .menuitem.separator {
     color: @menu_separator;
     padding: 4px 0;
-    -GtkWidget-separator-height: 2px;
-    -GtkWidget-wide-separators: true;
+    min-height: 2px;
     border-top: 1px solid @menu_separator;
     border-bottom: 1px solid @menu_separator_shadow;
 }
@@ -2376,9 +2374,8 @@ toolbar:backdrop,
 
 toolbar separator,
 .toolbar .separator {
-    -GtkWidget-wide-separators: true;
-    -GtkWidget-horizontal-separator: 0;
-    -GtkWidget-vertical-separator: 0;
+    min-width: 0px;
+    min-height: 0px;
 }
 
 /*********************
@@ -3956,8 +3953,7 @@ popover separator,
     text-shadow: none;
     background-color: transparent;
     -gtk-icon-shadow: none;
-    -GtkWidget-separator-height: 2px;
-    -GtkWidget-wide-separators: true;
+    min-height: 2px;
     border-top: 1px solid @menu_separator;
     border-bottom: 1px solid @menu_separator_shadow;
 }
