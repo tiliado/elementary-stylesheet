@@ -22,8 +22,8 @@
     -GtkPaned-handle-size: 1px;
     -GtkIMHtml-hyperlink-color: @link_color;
     -GtkHTML-link-color: @link_color;
-    -GtkWidget-focus-line-width: 0;
-    -GtkWidget-focus-padding: 0;
+    outline-width: 0px;
+    outline-offset: 0px;
     -GtkButtonBox-child-min-height: 20;
     -GtkButtonBox-child-internal-pad-y: 1;
 
