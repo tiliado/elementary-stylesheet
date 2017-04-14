@@ -1933,12 +1933,10 @@ notebook header.bottom tab:checked {
 
 notebook header.left tab:checked {
     border-radius: 4px 0px 0px 4px;
-    margin-right: -1px;
 }
 
 notebook header.right tab:checked {
     border-radius: 0px 4px 4px 0px;
-    margin-left: -1px;
 }
 
 notebook tab:checked:backdrop {
