@@ -3933,14 +3933,15 @@ popover.menu,
     border-radius: 0;
 }
 
-GtkModelButton.button {
+modelbutton{
     color: @fg_color;
+    padding: 3px 4px;
 }
 
-GtkModelButton.button:active,
-GtkModelButton.button:disabled,
-GtkModelButton.button:active:disabled,
-GtkModelButton.button {
+modelbutton:active,
+modelbutton:disabled,
+modelbutton:active:disabled,
+modelbutton {
     background-color: transparent;
     background-image: none;
     border-color: transparent;
@@ -3949,8 +3950,7 @@ GtkModelButton.button {
     box-shadow: none;
 }
 
-popover separator,
-.popover .separator {
+popover separator {
     font-size: 80%;
     font-weight: bold;
     color: @menu_separator;
@@ -3962,9 +3962,9 @@ popover separator,
     border-bottom: 1px solid @menu_separator_shadow;
 }
 
-GtkModelButton.button:active:hover,
-GtkModelButton.button:hover,
-GtkModelButton.button:selected {
+modelbutton:active:hover,
+modelbutton:hover,
+modelbutton:selected {
     background-color: @colorAccent;
     background-image: none;
     border-style: none;
