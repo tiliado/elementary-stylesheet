@@ -2469,6 +2469,7 @@ toolbar.bottom-toolbar button,
     padding: 3px;
     border: 1px solid transparent;
     background-image: none;
+    background-color: transparent;
     box-shadow: none;
 }
 
