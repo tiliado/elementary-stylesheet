@@ -2281,6 +2281,10 @@ check,
     background-position: center;
 }
 
+check, radio {
+    margin: 0px 6px;
+}
+
 check:focus,
 .check:focus {
     -gtk-icon-source: -gtk-scaled(url("../gtk-3.0/assets/check-focus.svg"), url("../gtk-3.0/assets/check-focus@2.svg"));
